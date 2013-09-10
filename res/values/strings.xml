@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kit-SDK Sample</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="btn1">Open Kit Mainpage</string>
+    <string name="btn2">When app started first time</string>
+    <string name="btn3">Show mission complete screen</string>
+    <string name="btn4">Kit mission done 3/10 API call</string>
+    <string name="btn5">NoticeBar test</string>
+   <string name="btn6">Login test</string>
+   <string name="btn7">Kit mission completed API call</string>
+</resources>
