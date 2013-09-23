@@ -186,14 +186,10 @@ public class KitNetwork {
 			Log.i("KitNetwork-url",url[0].toString());
 			String responseStr = null;
 
-<<<<<<< HEAD:src/com/kit/SDK/KitNetwork.java
 		//TODO: ??????????????? ???????????? ???????????????. ????????????.
-	    HttpRequestRetryHandler myRetryHandler = new HttpRequestRetryHandler() {
-=======
 			DefaultHttpClient httpclient = new DefaultHttpClient();
->>>>>>> 6a31b65091186db910592a235440060d61983d23:src/com/trendpickr/kitSDK/KitNetwork.java
 
-			//TODO: 전송실패시 다시시도 로직추가함. 검토필요.
+			//TODO: ��������������� ������������ ���������������. ������������.
 		    HttpRequestRetryHandler myRetryHandler = new HttpRequestRetryHandler() {
 
 		        public boolean retryRequest(
